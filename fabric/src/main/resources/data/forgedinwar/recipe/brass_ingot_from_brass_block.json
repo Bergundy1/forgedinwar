@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "brass_ingot",
+  "ingredients": [
+    "forgedinwar:brass_block"
+  ],
+  "result": {
+    "id": "forgedinwar:brass_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decoration",
+  "pattern": [
+    "###",
+    "#F#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:iron_nugget",
+    "F": "forgedinwar:brass_torch"
+  },
+  "result": {
+    "id": "forgedinwar:brass_lantern",
+    "count": 1
+  }
+}

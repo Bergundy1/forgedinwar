@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decoration",
+  "pattern": [
+    "###",
+    "#F#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:iron_nugget",
+    "F": "forgedinwar:zinc_torch"
+  },
+  "result": {
+    "id": "forgedinwar:zinc_lantern",
+    "count": 1
+  }
+}

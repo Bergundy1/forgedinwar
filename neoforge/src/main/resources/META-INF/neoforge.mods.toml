@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "forgedinwar"
+version = "${version}"
+displayName = "Forged in War"
+authors = "Bergundy1"
+description = '''
+Brass weapons made for war
+'''
+#logoFile = ""
+
+[[dependencies.forgedinwar]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.forgedinwar]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.10,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.forgedinwar]]
+modId = "architectury"
+type = "required"
+versionRange = "[18.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "forgedinwar.mixins.json"

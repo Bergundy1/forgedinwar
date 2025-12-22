@@ -1,0 +1,6 @@
+{
+  "parent": "forgedinwar:item/knuckles_in_hand",
+  "textures": {
+    "layer0": "forgedinwar:item/brass_knuckles"
+  }
+}

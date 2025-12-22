@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_zinc_torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "forgedinwar:zinc_torch"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "forgedinwar:zinc_lantern"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_zinc_torch"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "forgedinwar:zinc_lantern"
+    ]
+  }
+}

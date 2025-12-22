@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "forgedinwar",
+  "version": "${version}",
+  "name": "Forged in War",
+  "description": "Brass weapons made for war",
+  "authors": ["Bergundy1"],
+  "contact": {
+    "homepage": "https://modrinth.com/user/Bergundy1"  },
+  "license": "MIT",
+  "icon": "assets/forgedinwar/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.bergundy1.forged_in_war.fabric.Forged_in_warFabric"
+    ],
+    "client": [
+      "org.bergundy1.forged_in_war.fabric.client.Forged_in_warFabricClient"
+    ]
+  },
+  "mixins": [
+    "forgedinwar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+    ,"architectury": ">=19.0.1"
+    ,"fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

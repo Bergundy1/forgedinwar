@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "forgedinwar:zinc_ore",
+  "category": "misc",
+  "group": "zinc_ingot",
+  "result": {
+    "id": "forgedinwar:zinc_ingot"
+  },
+  "experience": 1.0,
+  "cookingtime": 100
+}

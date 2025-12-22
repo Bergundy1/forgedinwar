@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "zinc_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "forgedinwar:zinc_nugget"
+  },
+  "result": {
+    "id": "forgedinwar:zinc_ingot",
+    "count": 1
+  }
+}

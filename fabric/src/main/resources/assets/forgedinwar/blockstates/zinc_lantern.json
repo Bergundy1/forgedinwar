@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "forgedinwar:block/zinc_lantern"
+    },
+    "hanging=true": {
+      "model": "forgedinwar:block/zinc_lantern_hanging"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "itemGroup.forgedinwar": "Forged in War",
+  "item.forgedinwar.brass_ingot": "Brass Ingot",
+  "item.forgedinwar.zinc_ingot": "Zinc Ingot",
+  "item.forgedinwar.zinc_nugget": "Zinc Nugget",
+  "item.forgedinwar.brass_nugget": "Brass Nugget",
+  "item.forgedinwar.brass_battle_axe": "Brass Battle Axe",
+  "item.forgedinwar.brass_knuckles": "Brass Knuckles",
+  "block.forgedinwar.zinc_ore": "Zinc Ore",
+  "block.forgedinwar.deepslate_zinc_ore": "Deepslate Zinc Ore",
+  "block.forgedinwar.zinc_block": "Block of Zinc",
+  "block.forgedinwar.brass_block": "Block of Brass",
+  "block.forgedinwar.zinc_lantern": "Zinc Lantern",
+  "block.forgedinwar.zinc_torch": "Zinc Torch",
+  "block.forgedinwar.brass_lantern": "Brass Lantern",
+  "block.forgedinwar.brass_torch": "Brass Torch",
+
+  "creativetab.forgedinwar.forgedinwar": "Forged in War",
+  "item.forgedinwar.zinc_torch": "Zinc Torch",
+  "item.forgedinwar.brass_torch": "Brass Torch"
+}

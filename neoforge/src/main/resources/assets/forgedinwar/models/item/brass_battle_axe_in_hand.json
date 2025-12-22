@@ -1,0 +1,6 @@
+{
+  "parent": "forgedinwar:item/battle_axe_in_hand",
+  "textures": {
+    "layer0": "forgedinwar:item/brass_battle_axe_in_hand"
+  }
+}

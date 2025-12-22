@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "forgedinwar:zinc_ingot"
+  },
+  "result": {
+    "id": "forgedinwar:zinc_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decoration",
+  "pattern": [
+    "#",
+    "C",
+    "/"
+  ],
+  "key": {
+    "#": "forgedinwar:zinc_nugget",
+    "C": ["minecraft:coal", "minecraft:charcoal"],
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "forgedinwar:zinc_torch",
+    "count": 4
+  }
+}

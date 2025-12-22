@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "brass_ingot",
+  "pattern": [
+    "cf",
+    "fc"
+  ],
+  "key": {
+    "c": "minecraft:copper_ingot",
+    "f": "forgedinwar:zinc_ingot"
+  },
+  "result": {
+    "id": "forgedinwar:brass_ingot",
+    "count": 1
+  }
+}

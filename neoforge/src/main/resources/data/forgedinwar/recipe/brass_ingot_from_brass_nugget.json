@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "brass_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "forgedinwar:brass_nugget"
+  },
+  "result": {
+    "id": "forgedinwar:brass_ingot",
+    "count": 1
+  }
+}

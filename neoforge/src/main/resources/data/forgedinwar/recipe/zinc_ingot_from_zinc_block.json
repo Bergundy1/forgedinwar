@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "zinc_ingot",
+  "ingredients": [
+    "forgedinwar:zinc_block"
+  ],
+  "result": {
+    "id": "forgedinwar:zinc_ingot",
+    "count": 9
+  }
+}

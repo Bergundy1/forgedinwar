@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "forgedinwar:brass_ingot"
+  },
+  "result": {
+    "id": "forgedinwar:brass_block",
+    "count": 1
+  }
+}

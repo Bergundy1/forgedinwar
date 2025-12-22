@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "fff",
+    " f "
+  ],
+  "key": {
+    "f": "forgedinwar:brass_ingot"
+  },
+  "result": {
+    "id": "forgedinwar:brass_knuckles",
+    "count": 1
+  }
+}

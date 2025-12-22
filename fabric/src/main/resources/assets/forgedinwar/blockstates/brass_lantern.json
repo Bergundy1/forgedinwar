@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "forgedinwar:block/brass_lantern"
+    },
+    "hanging=true": {
+      "model": "forgedinwar:block/brass_lantern_hanging"
+    }
+  }
+}
