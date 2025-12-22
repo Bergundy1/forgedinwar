@@ -3,7 +3,7 @@
   "id": "forgedinwar",
   "version": "${version}",
   "name": "Forged in War",
-  "description": "Brass weapons made for war",
+  "description": "A simple mod that implements zinc ore which when combined with copper can make brass to make unique weapons for battle",
   "authors": ["Bergundy1"],
   "contact": {
     "homepage": "https://modrinth.com/user/Bergundy1"  },

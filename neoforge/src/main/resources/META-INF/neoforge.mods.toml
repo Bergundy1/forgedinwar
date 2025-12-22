@@ -9,7 +9,7 @@ version = "${version}"
 displayName = "Forged in War"
 authors = "Bergundy1"
 description = '''
-Brass weapons made for war
+A simple mod that implements zinc ore which when combined with copper can make brass to make unique weapons for battle
 '''
 #logoFile = ""
 
