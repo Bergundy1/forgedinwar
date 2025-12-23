@@ -17,14 +17,14 @@ public class ModCreativeModeTabs {
             .icon(() -> new ItemStack(ModItems.BRASS_BATTLE_AXE.get()))
             .title(Component.translatable("creativetab.forgedinwar.forgedinwar"))
             .displayItems((itemDisplayParameters, output) -> {
-                output.accept(ModItems.BRASS_INGOT);
-                output.accept(ModItems.ZINC_INGOT);
-                output.accept(ModItems.BRASS_BLOCK);
-                output.accept(ModItems.ZINC_BLOCK);
-                output.accept(ModItems.BRASS_NUGGET);
-                output.accept(ModItems.ZINC_NUGGET);
                 output.accept(ModItems.ZINC_ORE);
                 output.accept(ModItems.DEEPSLATE_ZINC_ORE);
+                output.accept(ModItems.ZINC_BLOCK);
+                output.accept(ModItems.BRASS_BLOCK);
+                output.accept(ModItems.ZINC_INGOT);
+                output.accept(ModItems.BRASS_INGOT);
+                output.accept(ModItems.ZINC_NUGGET);
+                output.accept(ModItems.BRASS_NUGGET);
                 output.accept(ModItems.ZINC_TORCH);
                 output.accept(ModItems.BRASS_TORCH);
                 output.accept(ModItems.ZINC_LANTERN);

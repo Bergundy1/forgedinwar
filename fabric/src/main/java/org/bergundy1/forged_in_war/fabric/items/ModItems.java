@@ -47,18 +47,18 @@ public class ModItems {
     public static void initialize() {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
-            itemGroup.accept(ModItems.BRASS_INGOT);
-            itemGroup.accept(ModItems.ZINC_INGOT);
-            itemGroup.accept(ModItems.ZINC_NUGGET);
-            itemGroup.accept(ModItems.BRASS_NUGGET);
-            itemGroup.accept(ModBlocks.ZINC_BLOCK);
-            itemGroup.accept(ModBlocks.BRASS_BLOCK);
             itemGroup.accept(ModBlocks.ZINC_ORE);
             itemGroup.accept(ModBlocks.DEEPSLATE_ZINC_ORE);
-            itemGroup.accept(ModBlocks.ZINC_LANTERN);
+            itemGroup.accept(ModBlocks.ZINC_BLOCK);
+            itemGroup.accept(ModBlocks.BRASS_BLOCK);
+            itemGroup.accept(ModItems.ZINC_INGOT);
+            itemGroup.accept(ModItems.BRASS_INGOT);
+            itemGroup.accept(ModItems.ZINC_NUGGET);
+            itemGroup.accept(ModItems.BRASS_NUGGET);
             itemGroup.accept(ModItems.ZINC_TORCH);
-            itemGroup.accept(ModBlocks.BRASS_LANTERN);
             itemGroup.accept(ModItems.BRASS_TORCH);
+            itemGroup.accept(ModBlocks.ZINC_LANTERN);
+            itemGroup.accept(ModBlocks.BRASS_LANTERN);
             itemGroup.accept(ModItems.BRASS_BATTLE_AXE);
             itemGroup.accept(ModItems.BRASS_KNUCKLES);
         });

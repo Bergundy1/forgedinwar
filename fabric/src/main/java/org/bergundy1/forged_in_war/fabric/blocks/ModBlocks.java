@@ -1,7 +1,5 @@
 package org.bergundy1.forged_in_war.fabric.blocks;
 
-import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
-import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -48,8 +46,5 @@ public class ModBlocks {
     public static final Block BRASS_TORCH = register("brass_torch", properties -> new TorchBlock(Forged_in_warFabric.BRASS_FLAME, properties), BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH), false);
     public static final Block BRASS_WALL_TORCH = register("brass_wall_torch", properties -> new WallTorchBlock(Forged_in_warFabric.BRASS_FLAME, properties), BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).overrideLootTable(ModBlocks.BRASS_TORCH.getLootTable()), false);
 
-    public static void initialize() {
-        BlockRenderLayerMap.putBlock(ModBlocks.ZINC_LANTERN, ChunkSectionLayer.CUTOUT);
-        BlockRenderLayerMap.putBlock(ModBlocks.BRASS_LANTERN, ChunkSectionLayer.CUTOUT);
-    }
+    public static void initialize() {}
 }
