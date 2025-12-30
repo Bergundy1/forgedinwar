@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "forgedinwar:brass_ingot"
+      "forgedinwar:brass_ingot_from_brass_nugget"
     ]
   }
 }

@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.BRASS_LANTERN);
                 output.accept(ModItems.BRASS_BATTLE_AXE);
                 output.accept(ModItems.BRASS_KNUCKLES);
+                output.accept(ModItems.LONGBOW);
             })
             .build());
 

@@ -43,6 +43,7 @@ public class ModItems {
     public static final Item BRASS_TORCH = registerBlock(ModBlocks.BRASS_TORCH, (block, properties) -> new StandingAndWallBlockItem(block, ModBlocks.BRASS_WALL_TORCH, Direction.DOWN, properties));
     public static final Item BRASS_BATTLE_AXE = register("brass_battle_axe", Item::new, new Item.Properties().sword(ModToolMaterials.BRASS_TOOL_MATERIAL, 4f, -3f).component(DataComponents.ATTACK_RANGE, new AttackRange(1.5F, 3.5F, 1.5F, 5.5F, 0.125F, 0.5F)));
     public static final Item BRASS_KNUCKLES = register("brass_knuckles", Item::new, new Item.Properties().sword(ModToolMaterials.BRASS_TOOL_MATERIAL, 3f, -1f).component(DataComponents.ATTACK_RANGE, new AttackRange(0F, 2.5F, 1F, 3.5f, 0.125F, 0.5F)));
+    public static final Item LONGBOW = register("longbow", LongBowItem::new, new Item.Properties().enchantable(3).durability(384));
 
     public static void initialize() {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
@@ -61,6 +62,7 @@ public class ModItems {
             itemGroup.accept(ModBlocks.BRASS_LANTERN);
             itemGroup.accept(ModItems.BRASS_BATTLE_AXE);
             itemGroup.accept(ModItems.BRASS_KNUCKLES);
+            itemGroup.accept(ModItems.LONGBOW);
         });
     }
 }

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_brass_block": {
+    "has_zinc_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "forgedinwar:brass_block"
+            "items": "forgedinwar:zinc_ingot"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_brass_block"
+      "has_zinc_ingot"
     ]
   ],
   "rewards": {

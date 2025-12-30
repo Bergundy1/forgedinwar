@@ -32,6 +32,7 @@ public class ModItems {
     public static final DeferredItem<BlockItem> BRASS_BLOCK = ITEMS.registerSimpleBlockItem(ModBlocks.BRASS_BLOCK);
     public static final DeferredItem<Item> BRASS_BATTLE_AXE = ITEMS.register("brass_battle_axe", () -> new Item(new Item.Properties().sword(ModToolMaterials.BRASS_TOOL_MATERIAL, 4f, -3f).component(DataComponents.ATTACK_RANGE, new AttackRange(1.5F, 3.5F, 1.5F, 5.5F, 0.125F, 0.5F)).setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Forged_in_war.MOD_ID, "brass_battle_axe")))));
     public static final DeferredItem<Item> BRASS_KNUCKLES = ITEMS.register("brass_knuckles", () -> new Item(new Item.Properties().sword(ModToolMaterials.BRASS_TOOL_MATERIAL, 3f, -1f).component(DataComponents.ATTACK_RANGE, new AttackRange(0F, 2.5F, 1F, 3.5f, 0.125F, 0.5F)).setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Forged_in_war.MOD_ID, "brass_knuckles")))));
+    public static final DeferredItem<Item> LONGBOW = ITEMS.register("longbow", () -> new LongBowItem(new Item.Properties().enchantable(3).durability(384).setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Forged_in_war.MOD_ID, "longbow")))));
 
 
     public static void register(IEventBus modBus) {
