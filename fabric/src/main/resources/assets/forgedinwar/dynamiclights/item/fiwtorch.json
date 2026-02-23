@@ -1,0 +1,12 @@
+{
+  "match": {
+    "items": [
+      "forgedinwar:zinc_torch",
+      "forgedinwar:brass_torch"
+    ]
+  },
+  "luminance": {
+    "type": "block_self"
+  },
+  "water_sensitive": true
+}

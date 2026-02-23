@@ -41,9 +41,10 @@ public class ModItems {
     public static final Item BRASS_NUGGET = register("brass_nugget", Item::new, new Item.Properties());
     public static final Item ZINC_TORCH = registerBlock(ModBlocks.ZINC_TORCH, (block, properties) -> new StandingAndWallBlockItem(block, ModBlocks.ZINC_WALL_TORCH, Direction.DOWN, properties));
     public static final Item BRASS_TORCH = registerBlock(ModBlocks.BRASS_TORCH, (block, properties) -> new StandingAndWallBlockItem(block, ModBlocks.BRASS_WALL_TORCH, Direction.DOWN, properties));
-    public static final Item BRASS_BATTLE_AXE = register("brass_battle_axe", Item::new, new Item.Properties().sword(ModToolMaterials.BRASS_TOOL_MATERIAL, 4f, -3f).component(DataComponents.ATTACK_RANGE, new AttackRange(1.5F, 3.5F, 1.5F, 5.5F, 0.125F, 0.5F)));
+    public static final Item BRASS_BATTLE_AXE = register("brass_battle_axe", Item::new, new Item.Properties().sword(ModToolMaterials.BRASS_TOOL_MATERIAL, 7f, -3f).component(DataComponents.ATTACK_RANGE, new AttackRange(1.5F, 3.5F, 1.5F, 5.5F, 0.125F, 0.5F)));
     public static final Item BRASS_KNUCKLES = register("brass_knuckles", Item::new, new Item.Properties().sword(ModToolMaterials.BRASS_TOOL_MATERIAL, 3f, -1f).component(DataComponents.ATTACK_RANGE, new AttackRange(0F, 2.5F, 1F, 3.5f, 0.125F, 0.5F)));
     public static final Item LONGBOW = register("longbow", LongBowItem::new, new Item.Properties().enchantable(3).durability(384));
+    public static final Item BRASS_GLAIVE = register("brass_glaive", Item::new, new Item.Properties().sword(ModToolMaterials.BRASS_TOOL_MATERIAL, 4f, -2.5f).component(DataComponents.ATTACK_RANGE, new AttackRange(2, 4.5F, 2F, 6.5F, 0.125F, 0.5F)));
 
     public static void initialize() {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
@@ -61,6 +62,7 @@ public class ModItems {
             itemGroup.accept(ModBlocks.ZINC_LANTERN);
             itemGroup.accept(ModBlocks.BRASS_LANTERN);
             itemGroup.accept(ModItems.BRASS_BATTLE_AXE);
+            itemGroup.accept(ModItems.BRASS_GLAIVE);
             itemGroup.accept(ModItems.BRASS_KNUCKLES);
             itemGroup.accept(ModItems.LONGBOW);
         });

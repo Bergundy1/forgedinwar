@@ -1,0 +1,12 @@
+{
+	"itemSpecific": {
+		"forgedinwar:longbow": {
+			"kind": "BOW",
+			"armKind": "BOW",
+			"customAnimation": [ {
+				"type": "useItem",
+				"name": "use_bow"
+			} ]
+		}
+	}
+}
